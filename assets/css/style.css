@@ -49,7 +49,9 @@ form button {
   font-weight: 700;
   height: 50px;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 100px;
+  padding: 10px;
+  
 }
 
 form button:hover {
@@ -60,18 +62,29 @@ form button:hover {
   padding: 5px 15px;
   border-radius: 3px;
   cursor: pointer;
-  background-color:#02779e;
-  color:#fff;
+  background-color:#29ffc9;
+  color:#000;
 }
-.apagar{
-  border: none;
-  padding: 2px 8px;
+.title{
+  display: flex;
+  justify-content: center;
+}
+.btn-tarefa {
+   border: none;
+   padding: 5px 15px;
+   border-radius: 3px;
+   cursor: pointer;
+   background-color:#02779e;
+  color:#fff; }
+ .apagar{
+  border: none; 
+  padding: 2px 8px; 
   border-radius: 3px;
-  cursor: pointer;
+  cursor: pointer; 
   background-color:#02779e;
-  color:#fff;
-}
+  color:#fff; }
 .tarefas{
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
 }
